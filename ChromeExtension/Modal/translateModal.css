@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Noto Serif&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 99999998; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0 !important;
+  top: 0 !important;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.05); /* Black w/ opacity */
+}
+.translate-frame {
+  position: relative !important;
+  max-width: 350px;
+  max-height: 180px;
+  padding: 5px 10px;
+  color: "red";
+  z-index: 99999999;
+  background-color: #fefefe;
+  border: 1px solid #888;
+  border-radius: 10px;
+  overflow-y: scroll;
+}
+.translate-frame::-webkit-scrollbar {
+  display: none;
+}
+
+div .vocabulary {
+  font-size: 25px;
+  color: red;
+  margin-block: 5px;
+}
+
+div .mean {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  color: forestgreen;
+  margin-block: 5px;
+}
